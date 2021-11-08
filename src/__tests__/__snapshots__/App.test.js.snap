@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`the listings data is correct 1`] = `
+Object {
+  "listings": Array [
+    Object {
+      "address": "4262 Geneva Street, Alaska",
+      "asking_price": 50,
+      "desc": "Four bedroom apartment, suitable for a family of 5",
+      "id": 1,
+      "image": "https://media.istockphoto.com/photos/modern-bedroom-interior-stock-photo-picture-id1299098384?b=1&k=20&m=1299098384&s=170667a&w=0&h=Bxi7LTyH5PtX_cS0TEtf7fCUqjQg3VsZSGw3fMlMdio=",
+      "no_of_bedrooms": 4,
+      "postcode": 99501,
+      "status": true,
+    },
+    Object {
+      "address": "2965 Crowfield Road, Arizona",
+      "asking_price": 20,
+      "desc": "Two bedroom apartment, facing the skyline. Beautiful view",
+      "id": 2,
+      "image": "https://images.unsplash.com/photo-1591088398332-8a7791972843?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1374&q=80",
+      "no_of_bedrooms": 2,
+      "postcode": 85001,
+      "status": false,
+    },
+    Object {
+      "address": "851 Cheshire Road, Connecticut",
+      "asking_price": 80,
+      "desc": "Eight bedroom apartment in the heart of Connecticut. Close to the airport, seaport and schools",
+      "id": 3,
+      "image": "https://images.unsplash.com/photo-1598928636135-d146006ff4be?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1740&q=80",
+      "no_of_bedrooms": 8,
+      "postcode": 64005,
+      "status": false,
+    },
+    Object {
+      "address": "4647 West Drive, Illinois",
+      "asking_price": 120,
+      "desc": "Six bedroom apartment in the highbrow area of Chicago, Illinoise. Fit for a large family, lovely scenery and quiet surroundings",
+      "id": 4,
+      "image": "https://images.unsplash.com/photo-1595268396332-9af381e5935e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80",
+      "no_of_bedrooms": 6,
+      "postcode": 60631,
+      "status": true,
+    },
+  ],
+}
+`;
