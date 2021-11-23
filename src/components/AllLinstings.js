@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
 import { useLocalStorage } from '../useLocalStorage';
 import ListingsCard from '../common/ListingsCard';
+import { axiosInstance } from '../Utils/API';
 
 function Lisitngs() {
 	// gets all the data from the axios request//
@@ -15,7 +15,7 @@ function Lisitngs() {
 		const getListings = async () => {
 			try {
 				// url from the json-server db //
-				let res = await axios.get('http://localhost:4000/listings');
+				let res = await axiosInstance.get();
 				setListingsData(res.data);
 			} catch (err) {
 				console.log(err);
